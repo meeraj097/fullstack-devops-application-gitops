@@ -15,7 +15,7 @@ spec:
         valueFiles:
           - $values/argocd/values/aws-load-balancer-controller.yaml
 
-    - repoURL: https://github.com/pagotiramarao/cloudcampus-platform-gitops.git
+    - repoURL: https://github.com/meeraj097/fullstack-devops-application-gitops.git
       targetRevision: main
       ref: values
 

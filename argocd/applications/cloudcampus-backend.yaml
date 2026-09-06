@@ -9,7 +9,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/pagotiramarao/cloudcampus-platform-gitops.git
+    repoURL: https://github.com/meeraj097/fullstack-devops-application-gitops.git
     targetRevision: main
     path: helm/backend
 

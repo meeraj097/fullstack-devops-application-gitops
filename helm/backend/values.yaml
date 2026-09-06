@@ -1,8 +1,8 @@
 replicaCount: 2
 
 image:
-  repository: 250224372179.dkr.ecr.us-west-2.amazonaws.com/dev-backend
-  tag: "7-bb3e08c"
+  repository: 541227054167.dkr.ecr.us-west-2.amazonaws.com/dev-backend
+  tag: "14-2ab8645"
   pullPolicy: IfNotPresent
 
 service:
@@ -11,7 +11,7 @@ service:
   targetPort: 8080
 
 database:
-  host: dev-cloudcampus-postgres.ctay2qyc0k7i.us-west-2.rds.amazonaws.com 
+  host: dev-cloudcampus-postgres.c30uws6wqh5x.us-west-2.rds.amazonaws.com
   port: 5432
   name: cloudcampus
 

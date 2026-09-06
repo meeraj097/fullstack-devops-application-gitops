@@ -1,10 +1,10 @@
 clusterName: dev-eks-cluster
 region: us-west-2
-vpcId: vpc-03461fa95b58c30b1
+vpcId: vpc-045a8762ac5719d53
 serviceAccount:
   create: true
   name: aws-load-balancer-controller
   annotations:
-    eks.amazonaws.com/role-arn: arn:aws:iam::250224372179:role/dev-alb-controller-role
+    eks.amazonaws.com/role-arn: arn:aws:iam::541227054167:role/dev-alb-controller-role
 
 defaultTargetType: ip
