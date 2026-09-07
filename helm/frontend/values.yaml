@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: 541227054167.dkr.ecr.us-west-2.amazonaws.com/dev-frontend
-  tag: "16-457e45a"
+  tag: "17-e3f7b17"
   pullPolicy: IfNotPresent
 
 service:
